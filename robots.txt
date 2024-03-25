@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://dengyangshen.github.io/sitemap.xml
+Sitemap: https://dengyangshen.netlify.app//sitemap.xml
