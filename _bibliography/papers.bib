@@ -1,93 +1,59 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{vldb24mpt,
+selected={true},
+abbr = {VLDB 2024},
+author = {Deng, Yangshen and Yan, Muxi and Tang, Bo},
+title = {Accelerating Merkle Patricia Trie with GPU },
+year = {2024},
+publisher = {VLDB Endowment},
+booktitle = {Proc. VLDB Endow. (To Appear)},
+series = {VLDB '24}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+
+@inproceedings{socc22ghive,
+bibtex_show={true},
+selected={true},
+pdf={socc22ghive},
+altmetric={true},
+abbr={SoCC 2022},
+author = {Liu, Haotian and Tang, Bo and Zhang, Jiashu and Deng, Yangshen and Yan, Xiao and Zheng, Xinying and Shen, Qiaomu and Zeng, Dan and Mao, Zunyao and Zhang, Chaozu and You, Zhengxin and Wang, Zhihao and Jiang, Runzhe and Wang, Fang and Yiu, Man Lung and Li, Huan and Han, Mingji and Li, Qian and Luo, Zhenghai},
+title = {GHive: accelerating analytical query processing in apache hive via CPU-GPU heterogeneous computing},
+year = {2022},
+isbn = {9781450394147},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3542929.3563503},
+doi = {10.1145/3542929.3563503},
+abstract = {As a popular distributed data warehouse system, Apache Hive has been widely used for big data analytics in many organizations. Meanwhile, exploiting the massive parallelism of GPU to accelerate online analytical processing (OLAP) has been extensively explored in the database community. In this paper, we present GHive, which enhances CPU-based Hive via CPU-GPU heterogeneous computing. GHive is designed for the business intelligence applications and provides the same API as Hive for compatibility. To run SQL queries jointly on both CPU and GPU, GHive comes with three key techniques: (i) a novel data model gTable, which is column-based and enables efficient data movement between CPU memory and GPU memory; (ii) a GPU-based operator library Panda, which provides a complete set of SQL operators with extensively optimized GPU implementations; (iii) a hardware-aware MapReduce job placement scheme, which puts jobs judiciously on either GPU or CPU via a cost-based approach. In the experiments, we observe that GHive outperforms Hive in both query processing speed and operating expense on the Star Schema Benchmark (SSB).},
+booktitle = {Proceedings of the 13th Symposium on Cloud Computing},
+pages = {158–172},
+numpages = {15},
+location = {San Francisco, California},
+series = {SoCC '22}
+}
+@inproceedings{sigmod22ghive,
+bibtex_show={true},
+selected={true},
+pdf={sigmod22ghive},
+altmetric={true},
+abbr={SIGMOD 2022},
+author = {Liu, Haotian and Tang, Bo and Zhang, Jiashu and Deng, Yangshen and Zheng, Xinying and Shen, Qiaomu and Yan, Xiao and Zeng, Dan and Mao, Zunyao and Zhang, Chaozu and You, Zhengxin and Wang, Zhihao and Jiang, Runzhe and Wang, Fang and Yiu, Man Lung and Li, Huan and Han, Mingji and Li, Qian and Luo, Zhenghai},
+title = {GHive: A Demonstration of GPU-Accelerated Query Processing in Apache Hive},
+year = {2022},
+isbn = {9781450392495},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3514221.3520166},
+doi = {10.1145/3514221.3520166},
+abstract = {As a distributed, fault-tolerant data warehouse system for large-scale data analytics, Apache Hive has been used for various applications in many organizations (e.g., Facebook, Amazon, and Huawei). Exploiting the large degrees of parallelism of GPU to improve the performance of online analytical processing (OLAP) in database system is a common practice in the industry. Meanwhile, it is a common practice to exploit the large degrees of parallelism of GPU to improve the performance of online analytical processing (OLAP) in database systems. This demo presents GHive, which enables Apache Hive to accelerate OLAP queries by jointly utilizing CPU and GPU in intelligent and efficient ways. The takeaways for SIGMOD attendees include: (1) the superior performance of GHive compared with vanilla Hive that only uses CPU; (2) intuitive visualizations of execution statistics for Hive and GHive to understand where the acceleration of GHive comes from; (3) detailed profiling of the time taken by each operator on CPU and GPU to show the advantages of GPU execution.},
+booktitle = {Proceedings of the 2022 International Conference on Management of Data},
+pages = {2417–2420},
+numpages = {4},
+keywords = {OLAP, CPU-GPU co-processing, Apache Hive},
+location = {Philadelphia, PA, USA},
+series = {SIGMOD '22}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}

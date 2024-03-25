@@ -1,24 +1,20 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Yangshen Deng",
+    "label": "Master Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "dengys2022@sustech.edu.cn",
+    "url": "https://dengyangshen.netlify.app/",
+    "summary": "A master student in dbgroup@SUSTech. I love building all kinds of systems.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Shenzhen",
+      "countryCode": "China"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Github",
+        "username": "tkoniy",
+        "url": "https://github.com/tkoniy"
       }
     ]
   },
