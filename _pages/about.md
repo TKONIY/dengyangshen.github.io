@@ -2,7 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://github.com/TKONIY'>[Github]</a>    <a href='https://scholar.google.com/citations?user=4vUaKDoAAAAJ'>[Google Scholar]</a>   <a href='https://www.linkedin.com/in/yangshen-deng-6309612a8/'>[LinkedIn]</a> <a href='assets/pdf/cv.pdf'>[CV]</a>
+subtitle: >
+  Southern University of Science and Technology<br>
+  Email: dengys2022@mail.sustech.edu.cn<br>
+  <a href='assets/pdf/cv.pdf'>[CV]</a> &ensp;&nbsp;
+  <a href="https://github.com/TKONIY">[GitHub]</a> &ensp;&nbsp; 
+  <a href='https://scholar.google.com/citations?user=4vUaKDoAAAAJ'>[Google Scholar]</a>
 
 profile:
   align: right
@@ -13,6 +18,8 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+
+
 
 I am a 2nd-year master student in [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/). 
 I work in [DBGroup@SUSTech](https://dbgroup.sustech.edu.cn/) led by Prof. [Bo Tang](https://acm.sustech.edu.cn/btang/).
