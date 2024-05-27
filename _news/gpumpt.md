@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper "Accelerating Merkle Patricia Trie with GPU"  is accepted by PVLDB '24.
+One paper ["Accelerating Merkle Patricia Trie with GPU"](https://www.vldb.org/pvldb/vol17/p1856-tang.pdf) is accepted by PVLDB '24.
