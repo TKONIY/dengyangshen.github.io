@@ -4,10 +4,10 @@ title: about
 permalink: /
 subtitle: <a href='https://github.com/TKONIY'>[Github]</a>    <a href='https://scholar.google.com/citations?user=4vUaKDoAAAAJ'>[Google Scholar]</a>   <a href='https://www.linkedin.com/in/yangshen-deng-6309612a8/'>[LinkedIn]</a> <a href='assets/pdf/cv.pdf'>[CV]</a>
 
-# profile:
-#   align: right
-#   image: profile.jpg
-#   image_circular: false # crops the image to make it circular
+profile:
+  align: right
+  image: profile.jpg
+  image_circular: false # crops the image to make it circular
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
