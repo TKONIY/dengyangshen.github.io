@@ -5,9 +5,9 @@ permalink: /
 subtitle: >
   Southern University of Science and Technology<br>
   dengys2022@mail.sustech.edu.cn<br>
-  <a href='assets/pdf/cv.pdf'>CV</a> &ensp;&nbsp;
+  <a href='https://scholar.google.com/citations?user=4vUaKDoAAAAJ'>Google Scholar</a> &ensp;&nbsp;
   <a href="https://github.com/TKONIY">GitHub</a> &ensp;&nbsp; 
-  <a href='https://scholar.google.com/citations?user=4vUaKDoAAAAJ'>Google Scholar</a>
+  <a href='assets/pdf/cv.pdf'>CV</a>
 
 profile:
   align: right
