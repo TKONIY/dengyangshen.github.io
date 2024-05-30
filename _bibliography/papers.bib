@@ -5,12 +5,21 @@
 selected={true},
 altmetric={true},
 abbr={DaMoN 2024},
+pdf={https://doi.org/10.1145/3662010.3663445},
 author = {Deng, Yangshen and Chen, Shiwen and Hong, Zhaoyang and Tang, Bo},
 title = {How Does Software Prefetching Work on GPU Query Processing?},
 year = {2024},
+isbn = {9798400706677},
 publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3662010.3663445},
+doi = {10.1145/3662010.3663445},
+abstract = {Improving the performance of GPU query processing is a well-studied problem in database community. However, its performance is still unsatisfactory due to the low utilization of GPU memory bandwidth. In the literature, employing software prefetching techniques to improve the bandwidth utilization is a common practice in CPU database as it overlaps computation cost and memory access latency. However, it was ignored by GPU database even though the software prefetching ability has been provided by modern GPU architecture (i.e., from NVIDIA Ampere).In order to investigate the effectiveness of software prefetching techniques on GPU query processing, we implement four software prefetching algorithms on GPU, i.e., Group Prefetch (GP), Software-Pipelined Prefetch (SPP), Asynchronous Memory Access Chaining (AMAC) and Interleaved Multi-Vectorizing (IMV) in the work. We then adapt them on hash join probe and BTree search tasks with a suite of optimizations. Last, we conduct comprehensive experiments and evaluate the performance of them. The results confirm the superiority of software prefetching techniques on GPU query processing. Specifically, they can achieve up to 1.19X speedup on hash join probe and 1.31X speedup on BTree search when compared with the implementations without software prefetching.},
 booktitle = {Proceedings of the 20th International Workshop on Data Management on New Hardware},
-series = {DaMoN '23}
+articleno = {5},
+numpages = {9},
+location = {<conf-loc>, <city>Santiago</city>, <state>AA</state>, <country>Chile</country>, </conf-loc>},
+series = {DaMoN '24}
 }
 
 @article{vldb24mpt,
