@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 
 
 
-I am a 2nd-year master student in [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/). 
+I am a 3nd-year master student in [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/). 
 I work in [DBGroup@SUSTech](https://dbgroup.sustech.edu.cn/) led by Prof. [Bo Tang](https://acm.sustech.edu.cn/btang/).
 Before that, I obtained my bachelor degree in [Beijing University of Posts and Telecommunications (BUPT)](https://www.bupt.edu.cn/) in 2022.
 I am working at [Systems@TUDa](https://www.informatik.tu-darmstadt.de/systems/systems_tuda/index.en.jsp) as a research intern. 
