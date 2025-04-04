@@ -4,7 +4,7 @@ title: About
 permalink: /
 subtitle: >
   Southern University of Science and Technology<br>
-  dengys2022@mail.sustech.edu.cn<br>
+  yangshen.deng@alayadb.ai<br>
   <a href='https://scholar.google.com/citations?user=4vUaKDoAAAAJ'>Google Scholar</a> &ensp;&nbsp;
   <a href="https://github.com/TKONIY">GitHub</a> &ensp;&nbsp; 
   <a href='assets/pdf/cv.pdf'>CV</a>
@@ -24,8 +24,7 @@ social: true # includes social icons at the bottom of the page
 I am a 3rd-year master student in [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/). 
 I work in [DBGroup@SUSTech](https://dbgroup.sustech.edu.cn/) led by Prof. [Bo Tang](https://acm.sustech.edu.cn/btang/).
 Before that, I obtained my bachelor degree in [Beijing University of Posts and Telecommunications (BUPT)](https://www.bupt.edu.cn/) in 2022.
-I am working at [Systems@TUDa](https://www.informatik.tu-darmstadt.de/systems/systems_tuda/index.en.jsp) as a research intern. 
-I have interned at [Ant Group](https://www.antgroup.com/), [GaussDB Huawei](https://www.huawei.com/), and [RS3Lab@EPFL](https://rs3lab.github.io/) before.
+I have interned at [Ant Group](https://www.antgroup.com/), [GaussDB Huawei](https://www.huawei.com/), [RS3Lab@EPFL](https://rs3lab.github.io/), and [Systems@TUDa](https://www.informatik.tu-darmstadt.de/systems/systems_tuda/index.en.jsp).
 
 I am working on building **scalable systems for Data and ML**. 
 
